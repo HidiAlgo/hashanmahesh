@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hashanmahesh/static/css/main.5f4275a2.css",
+    "main.js": "/hashanmahesh/static/js/main.a11cebc0.js",
+    "index.html": "/hashanmahesh/index.html",
+    "main.5f4275a2.css.map": "/hashanmahesh/static/css/main.5f4275a2.css.map",
+    "main.a11cebc0.js.map": "/hashanmahesh/static/js/main.a11cebc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f4275a2.css",
+    "static/js/main.a11cebc0.js"
+  ]
+}
