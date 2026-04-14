@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { experience } from '../data/content';
 
 export default function Experience() {
-  const [expanded, setExpanded] = useState(0); // first card open by default
+  const [expanded, setExpanded] = useState(0);
 
   return (
     <section id="experience" className="section">
@@ -17,10 +17,8 @@ export default function Experience() {
             className="note-card exp-card fade-up"
             style={{ animationDelay: `${i * 0.1}s` }}
           >
-            {/* Timeline dot */}
             <div className="exp-dot" />
 
-            {/* Header row — always visible */}
             <div
               className="exp-header"
               onClick={() => setExpanded(expanded === i ? null : i)}
@@ -43,7 +41,6 @@ export default function Experience() {
               <span className={`pub-chevron${expanded === i ? ' open' : ''}`}>▾</span>
             </div>
 
-            {/* Expandable bullets */}
             <div className="pub-abstract" style={{ maxHeight: expanded === i ? 400 : 0 }}>
               <div className="exp-body">
                 <ul className="exp-bullets">
