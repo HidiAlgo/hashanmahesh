@@ -137,3 +137,63 @@ export const blogPosts = [
     reactions: 24,
   }
 ];
+
+export const experience = [
+  {
+    role: "Senior Software Engineer",
+    company: "CodeGen International",
+    period: "Nov 2025 – Present",
+    location: "Colombo, Sri Lanka",
+    type: "Full-time",
+    bullets: [
+      "Worked on full stack development with Java microservice tech stack deployed on docker based technologies",
+      "Developed LLM based AI assistant to automate some of the internal processes and to assist employees in their day to day work",
+      "Developed applications using LangChain4j tools and deployed on kubernetes"
+    ],
+    tags: ["Java Spring", "Java Swing", "Oracle SQL", "Angular", "React", "LLM", "AI"],
+  },
+  {
+    role: "Software Engineer",
+    company: "CodeGen International",
+    period: "Nov 2023 – May 2025",
+    location: "Colombo, Sri Lanka",
+    type: "Full-time",
+    bullets: [
+      "Worked on full stack development with Java microservice tech stack deployed on docker based technologies"
+    ],
+    tags: ["Java Spring", "Java Swing", "Oracle SQL", "Angular"],
+  },
+  {
+    role: "Associate Software Engineer",
+    company: "CodeGen International",
+    period: "April 2023 – Nov 2023",
+    location: "Colombo, Sri Lanka",
+    type: "Full-time",
+    bullets: [
+      "Worked on feature development with Java microservice tech stack deployed on docker based technologies"
+    ],
+    tags: ["Java Spring", "Java Swing", "Oracle SQL", "Angular"],
+  },
+  {
+    role: "Associate Software Engineer",
+    company: "Virtusa",
+    period: "Jun 2023 – April 2023",
+    location: "Remote",
+    type: "Full-time",
+    bullets: [
+      "Continued Data migrations between application using different technologies, and continued integrations"
+    ],
+    tags: ["Azure", "PL/SQL", "Python", "Java", "OFA"],
+  },
+  {
+    role: "Software Engineering Intern",
+    company: "Virtusa",
+    period: "Nov 2021 – May 2022",
+    location: "Colombo, Sri Lanka",
+    type: "Internship",
+    bullets: [
+      "Worked on Oracle Fusion application related to bank integrations using Java."
+    ],
+    tags: ["SQL", "Oracle Fusion Application (OFA)", "Java", "REST", "SOAP"],
+  },
+];

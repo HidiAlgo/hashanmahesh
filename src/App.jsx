@@ -5,6 +5,7 @@ import About from './sections/About';
 import Academics from './sections/Academics';
 import Certifications from './sections/Certifications';
 import Publications from './sections/Publications';
+import Experience from './sections/Experience';
 import Blog from './sections/Blog';
 
 function SpiralBinding() {
@@ -55,6 +56,8 @@ export default function App() {
             <About />
             <DoodleDivider label="education" />
             <Academics />
+            <DoodleDivider label="— experience —" />
+            <Experience />
             <DoodleDivider label="credentials" />
             <Certifications />
             <DoodleDivider label="research" />

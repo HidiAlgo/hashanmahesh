@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { profile } from '../data/content';
 
-const SECTIONS = ['about', 'academics', 'certifications', 'publications', 'blog'];
+const SECTIONS = ['about', 'academics', 'experience', 'certifications', 'publications', 'blog'];
 
 export default function Navbar() {
   const [active, setActive]   = useState('about');
