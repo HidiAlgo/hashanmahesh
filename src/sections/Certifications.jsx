@@ -102,22 +102,6 @@ export default function Certifications() {
           </div>
         ))}
       </div>
-
-      <div className="sticky-note">
-        <span>✏</span>
-        <span>
-          Replace placeholder data in{' '}
-          <code style={{
-            fontSize: '0.78rem',
-            background: 'rgba(0,0,0,0.06)',
-            padding: '1px 5px',
-            fontFamily: 'monospace',
-          }}>
-            src/data/content.js
-          </code>{' '}
-          with your real certificates.
-        </span>
-      </div>
     </section>
   );
 }
